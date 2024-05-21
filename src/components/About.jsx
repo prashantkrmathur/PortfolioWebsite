@@ -10,7 +10,7 @@ import Button from 'react-bootstrap/Button'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
-
+import social_link from "../media/social-link.svg"
 const About = ({darkMode}) => {
 
     var TxtRotate = function(el, toRotate, period) {
@@ -83,7 +83,7 @@ const About = ({darkMode}) => {
                         <Card.Title><h2 className="lead">Let's have an introduction!</h2></Card.Title>
                         <br></br>
                         <Card.Text>
-                      <p>I am a <strong>Full Stack Web Developer</strong> from India. I am graduated from Haldia Institute of Technology in the Department of <strong>Information Technology</strong>, I am a <strong>passionate developer</strong> and believe in <strong>networking</strong> a lot. I am very enthusiastic about learning new technologies and tools. I'm comfortable working on any domain if I find the project is worth it. You can imagine me focused on the laptop screen and typing or taking down notes. Apart from technical things, I enjoy good books, travelling, mountaineering and playing chess.<br></br>
+                      <p>I am a <strong>Full Stack Web Developer</strong> from India. I am graduated from Haldia Institute of Technology in the Department of <strong>Information Technology</strong>, I am a <strong>passionate developer</strong> and believe in <strong>networking</strong> a lot. I am very enthusiastic about learning new technologies and tools. I'm comfortable working on any domain. You can imagine me focused on the laptop screen and typing or taking down notes. Apart from technical things, I enjoy good books, travelling, mountaineering and playing chess.<br></br>
                           Now that you know me a bit, please feel free to drop a text because <strong>Communication is a two-way street.</strong></p>
                         </Card.Text>
                         <a href={resume} target="_blank" rel="noreferrer noopener">
@@ -115,7 +115,7 @@ const About = ({darkMode}) => {
                             <FontAwesomeIcon className="dark" size="lg" icon={faGithub}/>  Prashant Kumar
                           </Button>
                         </a>
-                    <img src={darkMode ? "http://www.ninositsolution.com/design/images/mobile-responsive-web-design.png" : "http://www.ninositsolution.com/design/images/mobile-responsive-web-design.png"} alt="connect" className="connect-img img-fluid animated"/>
+                    <img src={social_link} alt="connect" className="connect-img img-fluid animated"/>
                       </Card.Body>
                     </Card>
                   </Col>

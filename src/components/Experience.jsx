@@ -8,8 +8,8 @@ import Button from 'react-bootstrap/esm/Button'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/esm/Col'
 import Card from 'react-bootstrap/esm/Card'
-
-
+import masaiLms from "../media/masai_lms.png"
+import pepperfry from "../media/pepperfry.png"
 const Experience = ({ darkMode }) => {
 
     return (
@@ -31,11 +31,11 @@ const Experience = ({ darkMode }) => {
                                         <div class="flip-card">
                                             <div class="flip-card-inner">
                                                 <div className="flip-card-front">
-                                                    <Card.Img variant="top" src={ca} />
+                                                    <Card.Img variant="top" src={pepperfry} />
                                                     <Card.Body>
                                                         <Card.Title align="center">Clone of pepperfry.com</Card.Title>
                                                         <Card.Text>
-                                                            <p align="center">Pepperfry is an online marketplace for furniture and home decor. The company is headquartered in Mumbai.</p>
+                                                            <p align="center">Pepperfry is an online marketplace for furniture. The company is headquartered in Mumbai.</p>
                                                         </Card.Text>
                                                     </Card.Body>
                                                 </div>
@@ -50,7 +50,7 @@ const Experience = ({ darkMode }) => {
                                     </center>
                                     <br></br>
                                     <div>
-                                        <a href="/" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://pepperfry-ochre.vercel.app/" target="_blank" rel="noreferrer noopener">
                                             <Button className='a' variant={darkMode ? "outline-light" : "outline-dark"}>View Project</Button>
                                         </a>
                                         <a href="https://github.com/nimbalkartejash/pepperfry" target="_blank" rel="noreferrer noopener">
@@ -60,6 +60,7 @@ const Experience = ({ darkMode }) => {
                                     <br></br>
                                 </Card>
                             </Col>
+                           
                             <Col lg={4} sm={12}>
                                 <Card align="center" className="exp" data-theme={darkMode ? "dark" : "light"}>
                                     <br></br>
@@ -71,7 +72,7 @@ const Experience = ({ darkMode }) => {
                                                     <Card.Body>
                                                         <Card.Title align="center">Clone of the abhibus.com</Card.Title>
                                                         <Card.Text>
-                                                            <p align="center">abhibus.com is online ticketing company that facilitates online booking of bus and train tickets to travellers all over India.</p>
+                                                            <p align="center">abhibus.com facilitates online booking of bus and train tickets to travellers all over India.</p>
                                                         </Card.Text>
                                                     </Card.Body>
                                                 </div>
@@ -94,8 +95,46 @@ const Experience = ({ darkMode }) => {
                                         </a>
                                     </div>
                                     <br></br>
+
+                                </Card>
+                            </Col> <Col lg={4} sm={12}>
+                                <Card align="center" className="exp" data-theme={darkMode ? "dark" : "light"}>
+                                    <br></br>
+                                    <center>
+                                        <div class="flip-card">
+                                            <div class="flip-card-inner">
+                                                <div className="flip-card-front">
+                                                    <Card.Img variant="top" src={masaiLms} />
+                                                    <Card.Body>
+                                                        <Card.Title align="center">Masai LMS</Card.Title>
+                                                        <Card.Text>
+                                                            <p align="center">Masai dashboard where user can access the lectures, assignment and quizzes.</p>
+                                                        </Card.Text>
+                                                    </Card.Body>
+                                                </div>
+                                                <div className="flip-card-back">
+                                                    <p>User can login, logout, user can see their profile, dashboard, lectures, assignments after successful authentication.
+                                                        <br></br> Users can filter as per their convenince etc
+                                                        <br></br>Tech Stack - HTML, CSS, JavaScript, ExpressJs, MongoDb, Nodejs, ReactJs and Redux.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </center>
+                                    <br></br>
+                                    <div>
+                                        <a href="https://masai-lms-dashboard.vercel.app/" target="_blank" rel="noreferrer noopener">
+                                            <Button className='a' variant={darkMode ? "outline-light" : "outline-dark"}>View Project</Button>
+                                        </a>
+                                        <a href="https://github.com/prashantkrmathur/Masai-LMS-dashboard" target="_blank" rel="noreferrer noopener">
+                                            <Button className='a' variant={darkMode ? "outline-light" : "outline-dark"} >View Github Repo</Button>
+                                        </a>
+                                    </div>
+                                    <br></br>
                                 </Card>
                             </Col>
+
+
 
                         </Row>
                     </Zoom>

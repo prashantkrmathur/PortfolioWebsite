@@ -97,6 +97,9 @@ code{
     padding-left: 18px;
     padding-right: 10px;
     margin: 5px;
+    transform: none;
+    transition: none;
+  
 }
 .about-h{
     font-size: x-large;
@@ -114,7 +117,6 @@ strong, .with{
 }
 .skills-img{
     margin-left: 15px;
-    margin-top:5px;
     height: 400px;
     width: auto;
 }
@@ -124,6 +126,7 @@ strong, .with{
     padding: 10px 16px;
     border-radius: 35px;
     border-width: var(--border-width);
+    margin-bottom:8px;
 }
 .skills-btn{
     color: #8e8d8a;
@@ -149,7 +152,10 @@ strong, .with{
     border-width: 1px;
     border-color: var(--name);
     background-color: transparent;
+    margin-bottom: 10px;
+    text-align: center;
 }
+
 
 .flip-card {
     background-color: transparent;
@@ -226,7 +232,7 @@ strong, .with{
     text-align: center !important;
     font-size: 1.2em !important;
     line-height: 2em !important;
-    background: #060c02 !important;
+    background: #020c04 !important;
     border-radius: 50% !important;
     transition: 0.5s !important;
 }
@@ -239,7 +245,7 @@ strong, .with{
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #14ffec;
+    background: #F50057;
     transition: 0.5s;
     transform: scale(0.9);
     z-index: -1;
@@ -247,13 +253,13 @@ strong, .with{
 
 .home-social-icons:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #14ffec;
+    box-shadow: 0 0 15px #F50057;
 }
 
 .home-social-icons:hover {
-    color: #14ffec;
-    box-shadow: 0 0 5px #14ffec;
-    text-shadow: 0 0 2px #14ffec;
+    color: #F50057;
+    box-shadow: 0 0 5px #F50057;
+    text-shadow: 0 0 2px #F50057;
 }
 
 .social-icons {
@@ -263,9 +269,9 @@ strong, .with{
 }
 
 .social-icons:hover {
-    color: #14ffec;
+    color: #F50057;
 }
 
 .icon-colour {
-    color: #14ffec !important;
+    color: #F50057 !important;
 }
