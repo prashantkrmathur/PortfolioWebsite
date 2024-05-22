@@ -27,7 +27,7 @@ function App() {
                 <Nav className="mr-auto">
                     <Nav.Link href="#about" className="link">About me</Nav.Link>
                     <Nav.Link href="#skills" className="link">Skills</Nav.Link>
-                    <Nav.Link href="#experience" className="link">Experience</Nav.Link>
+                    <Nav.Link href="#experience" className="link">Projects</Nav.Link>
                     <Nav.Link href="#contact" className="link">Contact</Nav.Link>
                 </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "outline-dark"}>
